@@ -23,6 +23,6 @@ Write your own script and deal with package APIs directly.
 
 ## TODO:
 
-- [X] Separate and expose build/reload tasks to npm scripts
+- [x] Separate and expose build/reload tasks to npm scripts
 - [ ] Add more package examples
 - [ ] Find useful abstractions (eg, transforming path strings)
