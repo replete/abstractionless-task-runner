@@ -1,0 +1,15 @@
+{
+  "name": "fuck-gulp-and-npm-scripts",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node start"
+  },
+  "devDependencies": {
+    "glob": "^7.1.1",
+    "postcss": "^5.2.4",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-utilities": "^0.5.1",
+    "precss": "^1.4.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
