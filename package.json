@@ -1,5 +1,5 @@
 {
-  "name": "fuck-gulp-and-npm-scripts",
+  "name": "abstractionless-task-runner",
   "version": "1.0.0",
   "scripts": {
     "start": "node run build watch",

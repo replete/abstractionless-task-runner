@@ -55,9 +55,4 @@ const tasks = {
 }
 
 // series task runner
-process.argv.forEach((a) => { 
-    if (tasks[a]) {
-        console.log(`[${a}]`); 
-        tasks[a]();
-    }
-});
+process.argv.forEach((a) => { if (tasks[a]) {console.log(`[${a}]`); tasks[a]() }});

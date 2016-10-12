@@ -1,4 +1,4 @@
-# fuck gulp and npm scripts
+# abstractionless task runner
 
 Why? It's just another option beside these usual approaches to frontend tooling:
 
