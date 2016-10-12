@@ -14,15 +14,15 @@ Implement tasks with a task runner such as gulp. Often you are interacting with 
 Bundlers like webpack are magical and can be the perfect solution. But they can also become extremely complicated to get working, and can suffer from the same problems as task-runners because they also rely on plugins.
 
 # Package APIs + browser-sync
-Write your own script and deal with packages APIs directly. This repository is just a starting point.
+Write your own script and deal with package APIs directly.
 
-I've found `browser-sync` to watch for changes much faster than multiple concurrent CLI-watchers and easier to orchestrate.
-
-The only extra dependency is `glob`, which should be a part of Node anyway.
+* I've found `bs.watch()` to be faster than multiple concurrent package CLI watchers and easier to orchestrate.
+* `glob, fs-extra, browser-sync` are required globally, but do what you will.
+* `fs-extra` exposes a useful `outputFile` method, which creates parent directories if they dont currently exist
 
 
 ## TODO:
 
-- [ ] Separate and expose build/reload tasks to npm scripts
+- [x] Separate and expose build/reload tasks to npm scripts
 - [ ] Add more package examples
 - [ ] Find useful abstractions (eg, transforming path strings)

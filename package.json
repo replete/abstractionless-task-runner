@@ -2,10 +2,10 @@
   "name": "fuck-gulp-and-npm-scripts",
   "version": "1.0.0",
   "scripts": {
-    "start": "node start"
+    "start": "node run build watch",
+    "build": "node run build"
   },
   "devDependencies": {
-    "glob": "^7.1.1",
     "postcss": "^5.2.4",
     "postcss-cssnext": "^2.8.0",
     "postcss-utilities": "^0.5.1",
